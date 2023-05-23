@@ -65,6 +65,7 @@ We release fine-tuned sentence-transformer versions of the models we used:
 - [bert-base-chinese tuned on Chinese](https://huggingface.co/kathaem/bert-base-chinese-sentence-transformer-xnli-zh) MNLI data (released with XNLI)
 - [XLM-R tuned on the five above datasets](https://huggingface.co/kathaem/xlm-roberta-base-sentence-transformer-nli-5langs)
 
+Our Czech machine translated data can be found in `mnli-en-cs.txt.gz`.
 For validation of each model, we used the 'dev' split from the STS dataset, 
 again machine translated by us to the respective target languages.
 See the paper for details.
@@ -74,6 +75,7 @@ See the paper for details.
 
 If you find our work useful, please cite our paper:
 
+```
 @misc{haemmerl2022speaking,
       title={Speaking Multiple Languages Affects the Moral Bias of Language Models}, 
       author={Katharina H\"ammerl and Bj\"orn Deiseroth and Patrick Schramowski and Jind\v{r}ich Libovick\'y and Constantin A. Rothkopf and Alexander Fraser and Kristian Kersting},
@@ -82,3 +84,4 @@ If you find our work useful, please cite our paper:
       archivePrefix={arXiv},
       primaryClass={cs.CL}
 }
+```
