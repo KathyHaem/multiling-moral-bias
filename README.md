@@ -76,12 +76,14 @@ See the paper for details.
 If you find our work useful, please cite our paper:
 
 ```
-@misc{haemmerl2022speaking,
+@article{haemmerl-2023-speaking,
       title={Speaking Multiple Languages Affects the Moral Bias of Language Models}, 
       author={Katharina H\"ammerl and Bj\"orn Deiseroth and Patrick Schramowski and Jind\v{r}ich Libovick\'y and Constantin A. Rothkopf and Alexander Fraser and Kristian Kersting},
-      year={2022},
+      year={2023},
       eprint={2211.07733},
       archivePrefix={arXiv},
-      primaryClass={cs.CL}
+      primaryClass={cs.CL},
+      journal={CoRR},
+      url={https://arxiv.org/abs/2211.07733}
 }
 ```
